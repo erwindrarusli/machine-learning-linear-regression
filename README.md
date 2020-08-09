@@ -287,7 +287,7 @@ sns.jointplot(x='Time on Website', y='Yearly Amount Spent', data=customers).anno
 
 
 
-![png](output_13_1.png)
+![png](image/output_13_1.png)
 
 
 > **Then, compare the <font color=royalblue>Time on App</font> and <font color=royalblue>Yearly Amount Spent</font> columns.** 
