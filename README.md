@@ -305,7 +305,7 @@ sns.jointplot(x='Time on App', y='Yearly Amount Spent', data=customers).annotate
 
 
 
-![png](output_15_1.png)
+![png](image/output_15_1.png)
 
 
 > **Now, I use Seaborn Jointplot to create a 2D hex bin plot comparing <font color=royalblue>Time on App</font> and <font color=royalblue>Length of Membership</font>.**
@@ -323,7 +323,7 @@ sns.jointplot(x = 'Time on App', y='Length of Membership', data=customers, kind=
 
 
 
-![png](output_17_1.png)
+![png](image/output_17_1.png)
 
 
 > **Let's explore these types of relationships across the entire data set. Use [pairplot](https://stanford.edu/~mwaskom/software/seaborn/tutorial/axis_grids.html#plotting-pairwise-relationships-with-pairgrid-and-pairplot) to recreate the plot below.**
@@ -346,7 +346,7 @@ sns.pairplot(customers).annotate(pearsonr)
 
 
 
-![png](output_19_1.png)
+![png](image/output_19_1.png)
 
 
 > <b>Based of this plot we can look that <font color=royalblue>Length of Membership</font> column is the most correlated feature with <font color=royalblue>Yearly Amount Spent</font>. It makes sense because the longer you are become a member the bigger your possibility to spent more money on it. We can see that on the correlation value table also.</b>
@@ -446,7 +446,7 @@ sns.jointplot(x='Length of Membership', y='Yearly Amount Spent', data=customers,
 
 
 
-![png](output_23_1.png)
+![png](image/output_23_1.png)
 
 
 ## Training and Testing Data
@@ -691,7 +691,7 @@ sns.scatterplot(Y_test, prediction)
 
 
 
-![png](output_43_1.png)
+![png](image/output_43_1.png)
 
 
 > **It seems that our Model has a good prediction.**
@@ -734,7 +734,7 @@ We should have gotten a very good model with a good fit. Let's quickly explore t
 ```
 
 
-![png](output_49_0.png)
+![png](image/output_49_0.png)
 
 
 ## Conclusion
